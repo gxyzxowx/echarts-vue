@@ -11,6 +11,14 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'home',
+  data () {
+    return {
+      mydata: 'I like jiliguala'
+    }
+  },
+  mounted () {
+    debugger
+  },
   components: {
     HelloWorld
   }
