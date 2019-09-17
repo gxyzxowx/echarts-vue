@@ -17,7 +17,7 @@ export default {
     }
   },
   mounted () {
-    debugger
+    // debugger
   },
   components: {
     HelloWorld

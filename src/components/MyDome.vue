@@ -15,6 +15,8 @@ h2 {
 <template>
   <div>
     <h2>vue中插入Echarts示例</h2>
+    <input type="text" v-model="price">
+    <span>{{price}}</span>
     <div id="chart_example"></div>
   </div>
 </template>
@@ -22,7 +24,9 @@ h2 {
 import echarts from 'echarts'
 export default {
   data () {
-    return {}
+    return {
+      price: 1
+    }
   },
   mounted () {
     // let this_ = this
